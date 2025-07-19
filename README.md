@@ -36,7 +36,7 @@ Download the Android APK or scan the QR code from this website to try the app.
 
 ## 🌐 Website Features
 
-👉 [Live Website]((https://sumithadevhub.github.io/buzzapp-web/))
+👉 [Live Website](https://sumithadevhub.github.io/buzzapp-web)
 
 This website complements the app by providing:
 
