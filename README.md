@@ -36,6 +36,8 @@ Download the Android APK or scan the QR code from this website to try the app.
 
 ## 🌐 Website Features
 
+👉 [Live Website]((https://sumithadevhub.github.io/buzzapp-web/))
+
 This website complements the app by providing:
 
 - ✅ A clean and responsive landing page
@@ -50,14 +52,14 @@ This website complements the app by providing:
 ## 🔗 App Source Code
 
 Explore the full Android application code in the companion repository:  
-👉 [BuzzApp Codebase GitHub Repo](https://github.com/yourusername/buzzapp-codebase)
+👉 [BuzzApp Codebase GitHub Repo](https://github.com/SumithaDevHub/buzzapp-codebase)
 
 ---
 
 ## 📦 How to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/buzzapp-website.git
+git clone https://github.com/SumithaDevHub/buzzapp-website.git
 cd buzzapp-website
 npm install
 npm run dev
