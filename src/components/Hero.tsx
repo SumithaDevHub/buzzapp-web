@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-6">
           {/* Download Button */}
           <a
-            href="/buzzapp.apk"
+            href={`${import.meta.env.BASE_URL}buzzapp.apk`}
             download
             className="group bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 rounded-2xl font-semibold text-base shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-2"
           >

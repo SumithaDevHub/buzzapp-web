@@ -24,7 +24,7 @@ const Download = () => {
               {/* Direct Download */}
               <div className="space-y-4">
                 <a
-                  href="/buzzapp.apk"
+                  href={`${import.meta.env.BASE_URL}buzzapp.apk`}
                   download
                   className="w-full block bg-white text-gray-900 px-6 py-4 rounded-2xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-3 group"
                 >
@@ -43,11 +43,8 @@ const Download = () => {
                 <div className="text-center">
                   <a href="https://sumithadevhub.github.io/buzzapp-web" target="_blank" rel="noopener noreferrer">
                     <div className="w-32 h-32 bg-white rounded-2xl mx-auto mb-4 overflow-hidden shadow-lg hover:scale-105 transition-transform">
-                      <img
-                      
-
+                      <img                    
                         src={`${import.meta.env.BASE_URL}qr-buzzapp.png`}
-
                         alt="Scan QR to download BuzzApp"
                         className="w-full h-full object-cover"
                       />
