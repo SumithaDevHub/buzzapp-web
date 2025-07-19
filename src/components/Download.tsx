@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Download as DownloadIcon, Smartphone, Star } from 'lucide-react';
 
 const Download = () => {
