@@ -43,7 +43,7 @@ This website complements the app by providing:
 - 📷 **QR code scan for mobile download**
 - 🔗 **Link to GitHub repo for source code**
 
-> This site is built using **React**, **Tailwind CSS**, and **Vite** for blazing-fast performance and modern aesthetics.
+
 
 ---
 
