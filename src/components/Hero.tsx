@@ -40,7 +40,9 @@ const Hero = () => {
           {/* QR Image */}
           <div className="flex flex-col items-center">
             <img
-              src="/public/qr-buzzapp.png"
+
+              src={`${import.meta.env.BASE_URL}qr-buzzapp.png`}
+
               alt="Download BuzzApp QR"
               className="w-32 h-32 rounded-xl shadow-lg hover:scale-105 transition-transform"
             />

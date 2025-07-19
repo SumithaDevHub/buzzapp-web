@@ -44,7 +44,10 @@ const Download = () => {
                   <a href="https://sumithadevhub.github.io/buzzapp-web" target="_blank" rel="noopener noreferrer">
                     <div className="w-32 h-32 bg-white rounded-2xl mx-auto mb-4 overflow-hidden shadow-lg hover:scale-105 transition-transform">
                       <img
-                        src="/public/qr-buzzapp.png"
+                      
+
+                        src={`${import.meta.env.BASE_URL}qr-buzzapp.png`}
+
                         alt="Scan QR to download BuzzApp"
                         className="w-full h-full object-cover"
                       />
